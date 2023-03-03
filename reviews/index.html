@@ -14,8 +14,41 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>review project</h1>
-    <!-- javascript -->
+    <main>
+      <section class="container">
+          <!-- title-->
+          <div class="title">
+            <h2>Our Reviews</h2>
+            <div class="underline"></div>
+          </div>
+          <!-- review -->
+          <article class="review">
+            <div class="img-container">
+              <img src="person-1.jpeg" id="person-img" alt="reviewer">
+            </div>
+            <h4 id="author">Agata Christie</h4>
+            <p id="job">Product Developer</p>
+            <p id="info">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem, distinctio harum ipsam nemo numquam vero? Nemo, omnis, tempore?
+            </p>
+            <!-- buttons-->
+            <div class="button-container">
+              <button class="prev-btn">
+                <ion-icon name="caret-back-outline"></ion-icon>
+              </button>
+              <button class="next-btn">
+                <ion-icon name="caret-forward-outline"></ion-icon>
+              </button>
+            </div>
+            <!-- surprise me -->
+            <button class="random-btn">Surprise me</button>
+          </article>
+
+      </section>
+    </main>
+    <!-- JS & ICONS -->
     <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

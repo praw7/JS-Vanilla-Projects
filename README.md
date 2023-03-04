@@ -1,5 +1,6 @@
 # JS Vanilla Projects ![My Skills](https://skillicons.dev/icons?i=js)
 
-Projects done with JS Vanilla
+[Projects](https://praw7.github.io/JS-Vanilla-Projects/)
+
 (Mostly FreeCodeCamp ideas)
 

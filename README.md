@@ -3,4 +3,3 @@
 Projects done with JS Vanilla
 (Mostly FreeCodeCamp ideas)
 
-[reviews slider](reviews/index.html)

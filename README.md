@@ -2,3 +2,4 @@
 
 Projects done with JS Vanilla
 (Mostly FreeCodeCamp ideas)
+

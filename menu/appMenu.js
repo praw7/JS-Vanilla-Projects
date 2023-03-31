@@ -1,3 +1,4 @@
+// ITEMS
 const menu = [
   {
     id: 1,
@@ -72,3 +73,25 @@ const menu = [
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
 ];
+
+const sectionCenter = document.querySelector(".section-center");
+
+window.addEventListener("DOMContentLoaded", function () {
+  let displayMenu = menu.map(function (item) {
+    return `<article class="menu-item">
+          <img class="photo" src=${item.img} alt=${item.title}/>
+          <div class="item-info">
+            <header>
+              <h4>${item.title}</h4>
+              <h4 class="price">${item.price}</h4>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur dolor doloremque hic labore, quam sunt.
+            </p>
+          </div>
+        </article>`;
+  });
+
+  console.log(displayMenu);
+});
